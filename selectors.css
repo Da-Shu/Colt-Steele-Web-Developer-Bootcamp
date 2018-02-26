@@ -28,3 +28,6 @@ a[href="http://google.com"] {
 	background: lightblue
 }
 /*nth of type*/
+li:nth-of-type(even) {
+	background: purple;
+}
