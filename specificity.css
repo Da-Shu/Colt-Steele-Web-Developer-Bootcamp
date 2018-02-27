@@ -1,0 +1,27 @@
+/*Type Selectors: Least specific*/
+
+li {
+
+}
+
+li a {
+
+}
+
+li + a {
+
+}
+
+/*Class: 10x more specific than type="" */
+
+.hello {
+
+}
+
+input [type="text"] {
+
+}
+
+/*ID Selector: most specific */
+
+#hello 
