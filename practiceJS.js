@@ -47,3 +47,31 @@ var arr = ([1, 2, 4, 3, 7, 6, 9, 5, 0, 8]);
  		console.log(num + " is odd")
  	}
  });
+
+//printReverse
+var arr = [1, 2, 3, 4];
+
+for(i = arr[3], i < 0; i--) {
+	console.log(arr[i]);
+}
+
+function sumArray(arr) {
+	var num1 = arr[0];
+
+	if(var i = arr[0]; i <= arr.length; i++) {
+		console.log(num1 + arr[i])
+	}
+}
+
+//objects practice
+var someObject = {
+	friends: [
+		{name: "Malfoy"},
+		{name: "Crabbe"};
+		{name: "Goyle"};
+	],
+	color: "baby blue",
+	isEvil: true
+};
+
+someObject.friends[0].name[0]

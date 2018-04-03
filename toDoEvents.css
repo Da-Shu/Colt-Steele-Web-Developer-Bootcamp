@@ -1,0 +1,11 @@
+.taskDone {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+.mouseOver {
+	color: green;
+}
+/*YOU DON'T NEED MOUSEOUT, BECAUSE YOU WOULD REMOVE MOUSEOVER, RATHER THAN ADD MOUSEOUT (OTHERWISE THE FUNCTION WILL RUN ONCE AND NOT WORK AGAIN*/
+/*.mouseOut {
+	color: black;
+}*/
